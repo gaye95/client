@@ -9,7 +9,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Signup />} />
           <Route path="/home" element={<Home />} />
           <Route path="/signupe" element={<Signup />}></Route>
           <Route path="/login" element={<Login />}></Route>
@@ -21,3 +21,4 @@ function App() {
 }
 
 export default App;
+
